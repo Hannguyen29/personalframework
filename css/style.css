@@ -120,7 +120,7 @@ hr {
 .button {
   display: inline-block;
   background-color: rgb(250, 173, 29);
-  color: #fff;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   padding: 1em;
   border-radius: 5px;
@@ -302,7 +302,7 @@ body {
           justify-content: center;
 }
 .site-footer a {
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
