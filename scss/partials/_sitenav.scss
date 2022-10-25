@@ -71,12 +71,17 @@
         .menu-button {
             background-color: transparent;
             border: none;
+            color: white;
             padding: .7em;
             position: relative;
             z-index: 20;
 
             svg {
                 display: block;
+
+                rect {
+                    fill: rgb(0, 0, 0);
+                }
             }
 
         }

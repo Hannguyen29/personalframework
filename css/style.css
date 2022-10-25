@@ -445,12 +445,16 @@ section {
 .site-header .site-nav .menu-button {
   background-color: transparent;
   border: none;
+  color: white;
   padding: 0.7em;
   position: relative;
   z-index: 20;
 }
 .site-header .site-nav .menu-button svg {
   display: block;
+}
+.site-header .site-nav .menu-button svg rect {
+  fill: rgb(0, 0, 0);
 }
 .site-header .site-nav .menu-button svg.simple-x-animation rect {
   -webkit-transform-origin: center;
